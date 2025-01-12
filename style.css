@@ -1,0 +1,99 @@
+/* General page styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+  }
+  /* Center the container and style it */
+  .container {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+  }
+  /* Style the heading */
+  .container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+  
+  /* Style the form elements */
+  form p {
+    margin: 10px 0;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #202020;
+  }
+  
+  input {
+    width: calc(100% - 10px);
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style the button */
+  button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #00b7ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  button:hover {
+    background-color: #1f8bff;
+  }
+  
+  /* Results and weight guide styling */
+  #results {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #12b4ff;
+    font-weight: bold;
+  }
+  
+  #weight-guide {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 14px;
+  }
+  
+  #weight-guide h3 {
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  
+  #weight-guide p {
+    margin: 5px 0;
+    color: #000000;
+  }
+  @media (max-width: 480px) {
+    .container {
+        padding: 15px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    input[type="text"] {
+        font-size: 13px;
+        padding: 8px;
+    }
+}
