@@ -7,8 +7,6 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f0f4f8;
   }
-  
-  /* Center the container and style it */
   .container {
     text-align: center;
     background: #fff;
@@ -17,15 +15,11 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 300px;
   }
-  
-  /* Style the heading */
   .container h1 {
     font-size: 24px;
     margin-bottom: 20px;
     color: #000000;
   }
-  
-  /* Style the form elements */
   form p {
     margin: 10px 0;
   }
@@ -42,8 +36,6 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px;
   }
-  
-  /* Style the button */
   button {
     margin-top: 10px;
     padding: 10px 20px;
@@ -58,8 +50,6 @@ body {
   button:hover {
     background-color: #1f8bff;
   }
-  
-  /* Results and weight guide styling */
   #results {
     margin-top: 20px;
     font-size: 16px;
